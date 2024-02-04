@@ -1,0 +1,144 @@
+/*home
+.homecon3{
+	background: #007bff !important;
+	height: 1500px;
+}
+
+#hed1{
+	text-align: center;
+	margin: 50px auto 120px !important;
+	color: #fff;
+}
+
+.maina{
+	width: 100%;
+	min-height: 380px;
+	text-align: center;
+	position: relative;
+	cursor: pointer;
+}
+
+.servicea {
+	background: #fff;
+	padding: 30px;
+	border-radius: 10px;
+	position: absolute;
+	bottom: 0;
+	z-index: 1;
+	box-shadow: 0 0 20px -15px #030380;
+	transition: transform .8s;
+
+}
+
+.servicea-logo {
+	width: 130px;
+	height: 130px;
+	border-radius: 50%;
+	margin: -90px auto 0;
+	background: #fff;
+	border: 18px solid #007bff;
+}
+
+.servicea-logo img {
+	width: 50px;
+	margin-top: 20px;
+	transition: transform 1s;
+}
+
+.servicea h4 {
+	height: 35px;
+	width: 80%;
+	background: #fff;
+	margin: 50px auto;
+	position: relative;
+}
+
+.servicea h4::after {
+	content: '';
+	width: 40px;
+	height: 30px;
+	background: linear-gradient(to right, #fff, #007bff);
+	position: absolute;
+	right: -5px;
+	top: -5px;
+	z-index: -1;
+}
+
+.servicea h4::before {
+	content: ' ';
+	width: 40px;
+	height: 30px;
+	background: linear-gradient(to right, #007bff, #fff);
+	position: absolute;
+	left: -5px;
+	bottom: -5px;
+	z-index: -1;
+}
+
+.shadowOne {
+	height: 200px;
+	width: 80%;
+	background: #fff;
+	position: absolute;
+	border-radius: 10px;
+	bottom: 0;
+	left: 10%;
+	z-index: -1;
+	box-shadow: 0 0 20px -15px #030380;
+	transition: transform .8s;
+}
+
+.shadowTwo {
+	height: 200px;
+	width: 64%;
+	background: #fff;
+	position: absolute;
+	border-radius: 10px;
+	bottom: 0;
+	left: 18%;
+	z-index: -2;
+}
+
+.maina:hover .servicea {
+	transform: translatey(-50px);
+}
+
+.maina:hover .shadowOne {
+	transform: translatey(-25px);
+}
+.maina:hover img{
+	transform: rotate(360deg);
+}*/
+home*/
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'arial', sans-serif;
+	box-sizing: border-box;
+}
+.row{
+	border: 1px solid orange;
+	display: flex;
+	flex-wrap: wrap;
+	padding: 2em 1em;
+}
+/*.columnb{
+	width: 100%;
+	border: 1ppx solid black;
+	padding: 05em 0;
+}
+
+
+.rowb h1{
+	width: 100%;
+	text-align: center;
+	font-size: 3.5em;
+	color: #1f003b;
+}
+.cardb{
+	box-shadow: 0 0 2.2em rgba(25, 0, 58, 0.15);
+	padding: 3.5em 1em;
+	border-radius: 0.6em;
+    color: #1f003b;
+	cursor: pointer;
+}

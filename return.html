@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Return</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" />
+    <link rel="stylesheet" href="hello.css">
+    <script src="script.js" defer></script>
+
+</head>
+<body id="bb">
+    <header>
+		<i class="fa-solid fa-leaf"></i>
+		<input type="checkbox" name="" id="chk1">
+		<div class="logoc">
+			<h1>LEAF</h1>
+		</div>
+		<div class="search-box">
+			<form action="">
+				<input type="text" name="search" id="srch" placeholder="search">
+				<button type="submit"><i class="fa fa-search"></i></button>
+			</form>
+		</div>
+		<ul>
+			<li><a href="helloworld.html">Home</a></li>
+			<li><a href="product.html">Product</a></li>
+			<li><a href="aboutus.html">About us</a></li>
+			<li><a href="contactus.html">Contact us</a></li>
+			<li>
+				<a href="https://www.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+				<a href="https://twitter.com/i/flow/login"><i class="fa-brands fa-twitter"></i></a>
+				<a href="https://in.linkedin.com/"><i class="fa-brands fa-linkedin"></i></a>
+				<a href="https://www.instagram.com/"><i class="fa-brands fa-instagram"></i></a>
+			</li>
+		</ul>
+		<div class="menu">
+			<label id="chk1">
+				<i class="fa fa-bars"></i>
+			</label>
+		</div>
+	</header>
+    <div class="rating-box">
+        <p>How Was Your Experience?</p>
+        <div class="stars">
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+            <i class="fa-solid fa-star"></i>
+
+        </div>
+    </div>
+    <script id="butt">
+        let ul =document.createElement("ul")
+        let li =document.createElement("li")
+li.addEventListener("click",function(){
+    alert("THANK^_^YOU");
+});
+let liText = document.createTextNode("submit");
+li.appendChild(liText);
+ul.appendChild(li);
+document.body.appendChild(ul);
+    </script>
+    <!--footer>
+		<div class="rowaz">
+			<div class="colaz">
+				<i class="fa-solid fa-leaf" style="height: 0px;width: 0px;"></i>
+				<h1>LEAF</h1><br>
+				<p>this page is Properties are the values associated with a JavaScript object
+					A JavaScript object is a collection of unordered properties
+					Properties can usually be changed, added, and deleted, but some are read only.</p>
+	
+			</div>
+			<div class="colaz">
+				<h3 id="ac">office <div class="underline"><span></span></div>
+				</h3>
+				<p>north street, thirubuvanam</p>
+				<p>tamilnadu,india PIN 612103</p>
+				<p class="email-id">sivaprakashv07@gmail.com</p>
+				<h4>+91 9685943939</h4>
+			</div>
+			<div class="colaz">
+				<h3 id="ac">links<div class="underline"><span></span></div>
+				</h3>
+				<ul>
+					<li><a href="helloworld.html"><i class="fa-solid fa-house">home</i></a></li>
+					<li><a href="product.html">product</a></li>
+					<li><a href="aboutus.html">about us</a></li>
+					<li><a href="contactus.html">contact us</a></li>
+					<li><a href="return.html">return</a></li>
+	
+				</ul>
+			</div>
+			<div class="colaz">
+				<h3 id="ac">News Letter<div class="underline"><span></span></div>
+				</h3>
+				<form>
+					<i class="fa-regular fa-envelope"></i>
+					<input type="email" placeholder="Enter Your email-id" required>
+					<button type="submit"><i class="fa-solid fa-arrow-right"></i></button>
+				</form>
+				<div class="social-icons">
+					<i class="fa-brands fa-facebook"></i>
+					<i class="fa-brands fa-twitter"></i>
+					<i class="fa-brands fa-linkedin"></i>
+					<i class="fa-brands fa-instagram"></i>
+	
+				</div>
+			</div>
+		</div>
+		<hr id="har">
+		<p class="Copyright"><span>First website © 2024|LEAF| All Rights Reserved</span> </p>
+	</footer>
+</body>
+</html>
